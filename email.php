@@ -6,6 +6,9 @@ $lastname = $_POST['lastname'];
 $emailFrom = $_POST['email'];
 $subject = $_POST['subject'];
 
+if(empty($firstname) || empty($lastname) || empty($emailFrom) || empty($subject)){
+    
+}
 $emailTo = "asfyit@gmail.com";
 $sus = "Email From asfyit.com website";
 $header = "From this user in asfyit.com website ".$emailFrom;

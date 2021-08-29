@@ -1,21 +1,18 @@
-// GSAP ANIMATIONS
-var tl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".home",
-    }
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
 });
 
-tl.from(".img_home", { x: 100, opacity: 0, duration: .5 })
-    .from(".text_home", { x: -100, opacity: 0, duration: .8 })
-var tl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".about",
-        start: "center bottom"
-    }
-});
-
-tl.from(".img_about", { x: 100, opacity: 0, duration: .5 })
-    .from(".text_about", { x: -100, opacity: 0, duration: .8 })
+sr.reveal(`.text_home, .img_home,
+            .text_about, .img_about,
+            .title_team, .box,
+            .app__data, .app__img,
+            .contact__data, .contact__button,
+            .footer__content`, {
+    interval: 100
+})
 
 // MENU EFFECT
 
