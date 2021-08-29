@@ -8,9 +8,7 @@ const sr = ScrollReveal({
 sr.reveal(`.text_home, .img_home,
             .text_about, .img_about,
             .title_team, .box,
-            .app__data, .app__img,
-            .contact__data, .contact__button,
-            .footer__content`, {
+            `, {
     interval: 100
 })
 
