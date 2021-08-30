@@ -220,6 +220,17 @@ header {
         resize: vertical;
         outline: none;
     }
+    p {
+        width: 100%;
+        padding: 12px;
+        border-radius: 4px;
+        margin-top: 15px;
+        background: #e84f6d;
+        margin-bottom: 16px;
+        resize: vertical;
+        outline: none;
+        color: #fff;
+    }
     input[type=submit] {
         background-color: #f0ac2d;
         color: white;

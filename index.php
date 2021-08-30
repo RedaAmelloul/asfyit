@@ -173,6 +173,13 @@
         <div class="row">
             <div class="container">
                 <form action="email.php" method="POST">
+                    <?php
+                    if(isset($_GET['error'])){
+                        if($_GET['error'] == "emptyinput"){
+                            echo "<p>Please enter your infromation on all inputus</p>";
+                        }
+                    }
+                    ?>
                     <label for="fname">الاسم الأول </label>
                     <input type="text" id="fname" name="firstname" placeholder="اسمك.. ">
 
