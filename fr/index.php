@@ -185,7 +185,7 @@
                     <label for="subject">Message</label>
                     <textarea id="subject" name="subject" placeholder="écrit un message.. " style="height:200px"></textarea>
 
-                    <input type="submit" value="Envoyer">
+                    <input type="submit" name="submit" value="Envoyer">
                 </form>
             </div>
         </div>

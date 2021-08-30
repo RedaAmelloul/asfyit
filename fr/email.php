@@ -10,7 +10,7 @@ $subject = $_POST['subject'];
     header("Location: index.php?error=emptyinput#CONTACT ");
     exit();
     }
-    elseif (!filter_var($email, FILTER_SANITIZE_EMAIL) ) {
+    elseif (!filter_var($emailFrom, FILTER_SANITIZE_EMAIL) ) {
     header("Location: index.php?error=emailnc");
     exit();
     }
