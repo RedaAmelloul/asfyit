@@ -1,15 +1,12 @@
-/*==================== SCROLL REVEAL ANIMATION ====================*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '30px',
-    duration: 2000,
-    reset: true
-});
+// gsap animation
 
-sr.reveal(`.text_home, .img_home,
-            .img_about, .text_about, .title_team, .box`, {
-    interval: 100
-})
+var tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".home",
+        start: "top center"
+    }
+});
+tl.from("text_home", { duration: .5, y: 30, opacity: 0 })
 
 // MENU EFFECT
 
