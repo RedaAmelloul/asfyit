@@ -25,7 +25,7 @@
                     <li><a href="#ABOUT">À propos</a></li>
                     <li><a href="#TEAM">notre équipe</a></li>
                     <li><a href="#CONTACT">Contactez-nous</a></li>
-                    <li><a href="../index.html">AR</a></li>
+                    <li><a href="../index.php">AR</a></li>
                 </div>
                 <div class="icon">
                     <img src="../layers/icons/menu.svg" alt="">
@@ -172,7 +172,7 @@
     <div class="contact" id="CONTACT">
         <div class="row">
             <div class="container">
-                <form action="../email.php" method="POST">
+                <form action="email.php" method="POST">
                     <label for="fname">Prénom </label>
                     <input type="text" id="fname" name="firstname" placeholder="Ton Prénom.. ">
 

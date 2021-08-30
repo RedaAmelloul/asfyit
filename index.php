@@ -25,7 +25,7 @@
                     <li><a href="#ABOUT">من نحن</a></li>
                     <li><a href="#TEAM">فريقنا </a></li>
                     <li><a href="#CONTACT">اتصل بنا </a></li>
-                    <li><a href="./fr/index.html">FR</a></li>
+                    <li><a href="./fr/index.php">FR</a></li>
                 </div>
                 <div class="icon">
                     <img src="./layers/icons/menu.svg" alt="">
