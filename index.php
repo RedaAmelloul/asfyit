@@ -176,7 +176,52 @@
                     <?php
                     if(isset($_GET['error'])){
                         if($_GET['error'] == "emptyinput"){
-                            echo "<p>Please enter your infromation on all inputus</p>";
+                            echo "<p style='width: 100%;
+                            padding: 12px;
+                            border-radius: 4px;
+                            margin-top: 15px;
+                            background: #e84f6d;
+                            margin-bottom: 16px;
+                            resize: vertical;
+                            outline: none;
+                            color: #fff;'>الرجاء إدخال المعلومات الخاصة بك </p>";
+                        }
+                        else if($_GET['error'] == "emailnc"){
+                            echo "<p style='width: 100%;
+                            padding: 12px;
+                            border-radius: 4px;
+                            margin-top: 15px;
+                            background: #e84f6d;
+                            margin-bottom: 16px;
+                            resize: vertical;
+                            outline: none;
+                            color: #fff;'>الرجاء إدخال بريدك الإلكتروني الصحيح </p>";
+                        }
+                        else if($_GET['error'] == "nop"){
+                            echo "<p style='width: 100%;
+                            padding: 12px;
+                            border-radius: 4px;
+                            margin-top: 15px;
+                            background: #e84f6d;
+                            margin-bottom: 16px;
+                            resize: vertical;
+                            outline: none;
+                            color: #fff;'>أدخل رسالتك هنا!</p>";
+                        }
+                    }
+                    ?>
+                     <?php
+                    if(isset($_GET['success'])){
+                        if($_GET['success'] == "mailsend"){
+                            echo "<p style='width: 100%;
+                            padding: 12px;
+                            border-radius: 4px;
+                            margin-top: 15px;
+                            background: green;
+                            margin-bottom: 16px;
+                            resize: vertical;
+                            outline: none;
+                            color: #fff;'>رسالتك أرسلت بالنجاح</p>";
                         }
                     }
                     ?>

@@ -21,7 +21,7 @@ $subject = $_POST['subject'];
         $txt = "You have received an e-mail from " .$firstname ." ".$lastname. ".\n\n".$subject;
 
         mail($emailTo, $sus, $txt, $header);
-        header("Location : index.php?mailsend");
+        header("Location : index.php?success=mailsend#CONTACT");
     }
 
 }
