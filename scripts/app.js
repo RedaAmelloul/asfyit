@@ -1,3 +1,4 @@
+/*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
@@ -6,9 +7,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.text_home, .img_home,
-            .text_about, .img_about,
-            .title_team, .box,
-            `, {
+            .img_about, .text_about, .title_team, .box`, {
     interval: 100
 })
 
