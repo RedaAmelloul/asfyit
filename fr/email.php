@@ -5,7 +5,7 @@ $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $emailFrom = $_POST['email'];
 $subject = $_POST['subject'];
-
+ 
     if(empty($firstname) || empty($lastname) || empty($emailFrom) || empty($subject)){
     header("Location: index.php?error=emptyinput#CONTACT ");
     exit();
